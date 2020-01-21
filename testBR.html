@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Measurment</title>
+    
+    <link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+    <div class="landing-text" id="home">
+        <h1>Testing JS</h1>
+        
+        <p id="test"></p>
+        <form>
+        <div>Killograms <br><input oninput="calcG()" onchange="calcG()" type="number" id="kilo"/></div>
+        <div><br>Grams <br><input oninput="calcK()" onchange="calcK()" type="number" id="grams"/></div>
+        
+        
+        <div><br>lbs <br><input id="lbsInput" type="number" /></div>
+        
+        </form>
+        
+        <div id="output">
+            <h3>Grams</h3>
+            <div id="grmsOutput"></div>
+            
+            <h3>Killograms</h3>
+            <div id="kgOutput"></div>
+            
+            <h3>Ounces</h3>
+            <div id="ozOutput"></div>
+        </div>
+    </div>
+    
+    <section class="about" id="about">
+    
+        
+    <h2  id="date"> </h2>
+    </section>
+    
+    <script src="moment.js"></script>
+    <script src="measure.js"></script>
+    </body>
+    
+    
+</html>
