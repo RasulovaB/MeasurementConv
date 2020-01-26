@@ -5,12 +5,15 @@
 //  return a + b;
 //}  
     
-function calcG(){
-    //take the value and save the variable to x
-    x=document.getElementById("kilo").value;
-    y=document.getElementById("grams").value;
-    document.getElementById("grams").value=x * 1000;
-}   
+function calcG(y){
+    //kilo to grams
+    var x = y * 1000;
+  //console.log(x);
+}
+calcG(1);
+
+    
+ 
 function calcK(){
     x=document.getElementById("kilo").value;
     y=document.getElementById("grams").value;
