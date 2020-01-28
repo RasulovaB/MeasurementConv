@@ -5,6 +5,7 @@
 //  return a + b;
 //}  
     
+ 
 function calcG(y){
     //kilo to grams
     var x = y * 1000;
@@ -13,6 +14,14 @@ function calcG(y){
 calcG(1);
 
     
+ 
+
+function calcG(){
+    //take the value and save the variable to x
+    x=document.getElementById("kilo").value;
+    y=document.getElementById("grams").value;
+    document.getElementById("grams").value=x * 1000;
+}   
  
 function calcK(){
     x=document.getElementById("kilo").value;
@@ -65,4 +74,7 @@ document.getElementById('lbsInput').addEventListener('input', function(e){//list
 //    a = "aslkfjsldf";
 //    var result = library.test().add();
 //    console.log(result);
+
 //})(); // Immediately Invoked Function (IIF)
+
+
